@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Jetbrains;
+    src: url(assets/JetBrainsMono-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'JetBrains Mono';
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(27, 27, 27), rgb(10, 10, 10));
+    background-repeat: no-repeat;
+}
+
+.main-div-all{
+    background: radial-gradient(circle, rgb(12, 77, 143) 0%, rgb(6, 4, 51) 100%);
+    width: 25rem;
+    height: 25rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.div-title{
+    width: 100%;
+    height: 4rem;
+    background: linear-gradient(45deg, rgba(255,102,0,1) 0%, rgba(255,214,0,1) 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.div-title p{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+ }
+
+.div-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+.div-options p{
+    color: white;
+    font-size: 14px;
+}
+
+.div-align-buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.btns-align{
+    display: flex;
+    align-items: center;
+}
+
+#btn-hidebalance{
+    display: none;
+}
+
+#balance-span{
+    color: white;
+    font-size: 25px;
+}
+
+.span2-balance{
+    color: rgb(255, 145, 0);
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#p-title{
+    color: white;
+    font-size: 20px;  
+}
+
+.btn-back-bottom{
+    width: 4rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn-back-bottom:hover{
+    background-color: rgb(148, 148, 148);
+    color: white;
+    transition: 0.4s;
+}
+
+
+#btn-balance{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#btn-hidebalance{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#btn-balance:hover{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    transition: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#btn-hidebalance:hover{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    transition: 0.4s;
+}
+

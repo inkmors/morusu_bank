@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morusu Bank</title>
+    <link rel="stylesheet" href="../styles/style_menu.css">
+    <link rel="shortcut icon" href="../assets/icons8-banco-96.png" type="image/x-icon">
+</head>
+<body">
+    <main>
+        <div class="main-div-all">
+            <div class="div-title">
+                <p>MORUSU BANK</p>
+            </div>
+    
+            <div class="div-options">
+                <p>Olá <span id="user-bank"></span>, Seja bem vindo(a)</p>
+                <div class="div-align-buttons">
+                    <p id="p-title">OPERAÇÕES BANCÁRIAS</p>
+                    <div class="align-sub-div">
+                        <div class="div-align-btn-top">
+                            <a href="balance.html"><button onclick="balancef()" id="btn-balance"
+                                    title="Confira seu saldo">Saldo</button></a>
+                            <a href="deposit.html"><button id="btn-deposit" title="Realizar um depósito">Depósito</button></a>
+                        </div>
+                        <div class="div-align-btn-bottom">
+                            <a href="plunder.html"><button id="btn-plunder" title="Realizar um saque">Saque</button></a>
+                            <button onclick="clearStorage()" id="btn-back">Sair</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../scripts/app.js"></script>
+</body>
+</html>
